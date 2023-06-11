@@ -1,0 +1,14 @@
+﻿@model List<SampleCoreApp.Models.Product>
+@*tür bildirilmeli *@
+
+
+
+<ul>
+    @*kucuk modelde data yakalanmalı*@
+    @foreach (var item in Model)
+    {
+        <li>@item.Name</li>
+        <li>@item.Description</li>
+        <li>@item.Id</li>
+    }
+</ul>
