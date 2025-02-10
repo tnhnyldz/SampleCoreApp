@@ -1,1 +1,1 @@
-ilginç birşeyler denediğim bir uygulama
+Dotnet core notlarım bazı bilgi ve best practiseler.
